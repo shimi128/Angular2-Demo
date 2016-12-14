@@ -1,3 +1,5 @@
+<app-header (runSpin)="(spinner=$event)"></app-header>
 <h1>
   {{title}}
 </h1>
+<div [hidden]="!spinner" class="spinner"></div>
